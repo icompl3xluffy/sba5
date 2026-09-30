@@ -3,15 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Purple Cherry~Blossom Blog</title>
+    <link rel="stylesheet" href="blog.css">
+    <script src="blog.js" defer> </script>
+
 </head>
 <body>
+  <div  id="title">
+    <h1> ~Purple Cherry~Blossom Blog~</h1>
+  </div>
     
-    <textarea
-  name="bio"
-  placeholder="Write a professional short bio..."
-  aria-label="Professional short bio"
->
-</textarea>
-</body>
+  <div id="blog">
+
+      <div id="theme-box">
+      <label id="theme-label" for="theme-title"> Theme:
+      <input id= "theme" type="text" required>
+      </label>
+      </div>
+
+      <div id="thought-box">
+        <label id="thoughts-label" for="thoughts">Unfiltered Thoughts</label>
+      <textarea  id="thoughts"name="thoughts" placeholder="Unfiltered Thoughts" aria-label="blog post"></textarea>
+      </div>
+
+
+    </div>
+    </body>
 </html>
